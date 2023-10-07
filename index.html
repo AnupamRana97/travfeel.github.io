@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travfeel Website</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- fontawsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-globe-central-south-asia globe mx-2" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM4.882 1.731a.482.482 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.721.721 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a.996.996 0 0 0-.462-.04 7.03 7.03 0 0 1 2.45-2.027Zm-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.78.78 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.454.454 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282a.61.61 0 0 0 .04-.001 7.003 7.003 0 0 1-12.658.905Z"/>
+          </svg>Trav<span>FEEL</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- carousel "-->
+      <div id="carouselExampleCaptions" data-bs-ride="carousel" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1800">
+            <img src="./Images/india.jpg" alt="india">
+            <div class="carousel-caption">
+              <h5>Welcome To World</h5>
+              <h1> Visit <span>INDIA</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in iure magni laboriosam vero. Quam.</p>
+              <a href="#book">Book Place</a>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1800">
+            <img src="./Images/china.jpg" alt="china">
+            <div class="carousel-caption">
+              <h5>Welcome To World</h5>
+              <h1> Visit <span>CHINA</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in iure magni laboriosam vero. Quam.</p>
+              <p class="animated fadeInUp" style="animation-delay: 3s">
+              <a href="#book">Book Place</a>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1800">
+            <img src="./Images/germany.jpg" alt="germany">
+            <div class="carousel-caption">
+              <h5>Welcome To World</h5>
+              <h1> Visit <span>GERMANY</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in iure magni laboriosam vero. Quam.</p>
+              <p class="animated fadeInUp" style="animation-delay: 3s">
+              <a href="#book">Book Place</a>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1800">
+            <img src="./Images/japan.jpg" alt="japan">
+            <div class="carousel-caption">
+              <h5>Welcome To World</h5>
+              <h1> Visit <span>JAPAN</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in iure magni laboriosam vero. Quam.</p>
+              <p class="animated fadeInUp" style="animation-delay: 3s">
+              <a href="#book">Book Place</a>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1800">
+            <img src="./Images/mexico.jpg" alt="mexico">
+            <div class="carousel-caption">
+              <h5>Welcome To World</h5>
+              <h1> Visit <span>MEXICO</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in iure magni laboriosam vero. Quam.</p>
+              <p class="animated fadeInUp" style="animation-delay: 3s">
+              <a href="#book">Book Place</a>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1800">
+            <img src="./Images/turkey.jpg" alt="turkey">
+            <div class="carousel-caption">
+              <h5>Welcome To World</h5>
+              <h1> Visit <span>TURKEY</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in iure magni laboriosam vero. Quam.</p>
+              <p class="animated fadeInUp" style="animation-delay: 3s">
+              <a href="#book">Book Place</a>
+            </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- book -->
+      <div class="book-area section-padding" id="book">
+        <div class="container">
+            <div class="main-text">
+                <h1><span>B</span>ook</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="img-area">
+                        <img src="./Images/travel.jpg" alt="travel">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <form action="#" class="book-text">
+                        <input type="text" class="form-control" placeholder="Where To" required><br>
+                        <input type="text" class="form-control" placeholder="How Many" required><br>
+                        <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                        <input type="date" class="form-control" placeholder="Leaving" required><br>
+                        <textarea name="text" rows="5" class="form-control" placeholder="Enter Your Name & Details"></textarea>
+                        <input type="submit" class="submit" value="Book Now" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- packages -->
+      <div class="packages-area section-padding" id="packages">
+        <div class="container">
+          <div class="main-text">
+            <h1><span>P</span>ackages</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card" >
+              <img src="./Images/india-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">India</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, inventore nam. Ipsa sed quis labore!</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book" class="btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card" >
+              <img src="./Images/china-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">China</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, inventore nam. Ipsa sed quis labore!</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book" class="btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card" >
+              <img src="./Images/france-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">France</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, inventore nam. Ipsa sed quis labore!</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book" class="btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card" >
+              <img src="./Images/germany-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Germany</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, inventore nam. Ipsa sed quis labore!</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book" class="btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card" >
+              <img src="./Images/japan-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Japan</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, inventore nam. Ipsa sed quis labore!</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book" class="btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card" >
+              <img src="./Images/turkey-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Turkey</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, inventore nam. Ipsa sed quis labore!</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book" class="btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- services -->
+      <div class="services-area section-padding" id="services">
+        <div class="container">
+          <div class="main-text">
+            <h1><span>S</span>ervices</h1>
+          </div>
+
+          <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-hotel"></i>
+                <div class="card-body">
+                  <h3 class="card-title">Affordable Hotel</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolor!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-utensils"></i>
+                <div class="card-body">
+                  <h3 class="card-title">Food & Drinks</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolor!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-bullhorn"></i>
+                <div class="card-body">
+                  <h3 class="card-title">Safty Guide</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolor!</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-globe-asia"></i>
+                <div class="card-body">
+                  <h3 class="card-title">Around The World</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolor!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-plane"></i>
+                <div class="card-body">
+                  <h3 class="card-title">Fastest Travel</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolor!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-hiking"></i>
+                <div class="card-body">
+                  <h3 class="card-title">Adventures</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolor!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- gallery -->
+      <div class="gallery-area section-padding" id="gallery">
+        <div class="container">
+          <div class="main-text">
+            <h1><span>G</span>allery</h1>
+          </div>
+
+          <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <img src="./Images/india-3.jpg" alt="" height="230px">
+              </div>
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <img src="./Images/france-3.jpg" alt="" height="230px">
+              </div>
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <img src="./Images/japan-3.jpg" alt="" height="230px">
+              </div>
+            </div>
+            
+            <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <img src="./Images/turkey-3.jpg" alt="" height="230px">
+              </div>
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <img src="./Images/germany-3.jpg" alt="" height="230px">
+              </div>
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                  <img src="./Images/china-3.jpg" alt="" height="230px">
+              </div>
+            </div>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- about us -->
+      <div class="about-area section-padding" id="about">
+        <div class="container">
+          <div class="main-text">
+            <h1>About<span>Us</span></h1>
+          </div>
+
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-6 col-sm-12">
+              <div class="about-img">
+                <img src="./Images/travel-2.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="about-text">
+                <h2>How Travel Agency Work</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus rem veniam est id fuga delectus odio, vel sequi odit amet, et iure ex suscipit iste quisquam! Quos quae voluptas dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem hic maxime eligendi, quo eveniet unde.</p>
+                <button id="about-btn">Read More...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer id="footer">
+        <h1>Trav<span>FEEL</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, assumenda.</p>
+        <div class="social-links">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="credit">
+          <p>Designed By <a href="#"><span>A</span>nupam</a></p>
+        </div>
+        <div class="copyright">
+          <p>&copy;Copyright <a href="#"><span>A</span>nupam</a>. All Rights Reserved.</p>
+        </div>
+      </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
